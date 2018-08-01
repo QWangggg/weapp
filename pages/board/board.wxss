@@ -1,0 +1,23 @@
+.slide swiper {
+  height: 400rpx;
+}
+
+image {
+  width: 100%;
+  height: 100%;
+}
+
+.flex-box {
+  margin-top: 20rpx;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-item {
+  width: 200rpx;
+  height: 200rpx;
+  border: 1px solid #ccc;
+}
