@@ -5,6 +5,9 @@ App({
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
+    wx.showLoading({
+      title: '正在加载中'
+    })
   },
   // getUserInfo:function(cb){
   //   var that = this

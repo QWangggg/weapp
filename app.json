@@ -1,15 +1,34 @@
 {
   "pages":[
     "pages/board/board",
-    "pages/list/list",
-    "pages/item/item",
-    "pages/search/search",
+    "pages/game/game",
+    "pages/movie/movie",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#35495e",
-    "navigationBarTitleText": "豆瓣电影",
+    "navigationBarTitleText": "我的小程序",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/board/board",
+      "text": "主页",
+      "iconPath": "icon/index.png",
+      "selectedIconPath": "icon/indexGreen.png"
+    },
+    {
+      "pagePath": "pages/board/board",
+      "text": "分类",
+      "iconPath": "icon/category.png",
+      "selectedIconPath": "icon/categoryGreen.png"
+    },
+    {
+      "pagePath": "pages/board/board",
+      "text": "关于",
+      "iconPath": "icon/about.png",
+      "selectedIconPath": "icon/aboutGreen.png"
+    }]
   }
 }
